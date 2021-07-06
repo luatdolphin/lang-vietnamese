@@ -1,7 +1,8 @@
 // Custom dayJs Locale File
 // Based on https://github.com/iamkun/dayjs/blob/dev/src/locale/vi.js    
 
-dayjs.locale('vi', {
+dayjs.locale({
+        name: 'vi',
         months : 'tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12'.split('_'),
         monthsShort : 'Th01_Th02_Th03_Th04_Th05_Th06_Th07_Th08_Th09_Th10_Th11_Th12'.split('_'),
         monthsParseExact : true,
@@ -57,7 +58,7 @@ dayjs.locale('vi', {
             y : 'một năm',
             yy : '%d năm'
         },
-        OrdinalParse: /\d{1,2}/,
+        ordinalParse: /\d{1,2}/,
         ordinal : function (number) {
             return number;
         },
