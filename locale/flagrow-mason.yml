@@ -99,7 +99,6 @@ flagrow-mason:
             settings: Cài đặt
             fields: Đề mục
         permissions:
-            mason-heading: Mason
             see-own-fields: Xem các mục trong các cuộc thảo luận bạn làm chủ
             see-other-fields: Xem các mục trên tất cả các cuộc thảo luận hiện có
             fill-fields: Điền vào các mục trong các cuộc thảo luận mới
