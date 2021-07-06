@@ -1,7 +1,14 @@
 imgur-upload:
   admin:
     settings:
-        title: Cài đặt Imgur Upload
+      hide-markdown-image: Ẩn nút hình ảnh Markdown
+      allow-paste: Cho phép tải lên bằng cách dán một hình ảnh
+      embed-type:
+        title: Loại nhúng
+        preview-with-link: Xem trước (1024px) với liên kết đến hình ảnh kích thước đầy đủ
+        preview-without-link: Xem trước mà không có liên kết
+        full-with-link: Hình ảnh kích thước đầy đủ với liên kết
+        full-without-link: Hình ảnh kích thước đầy đủ mà không có liên kết
   forum:
     upload: Tải ảnh lên
     loading: Đang tải lên...
