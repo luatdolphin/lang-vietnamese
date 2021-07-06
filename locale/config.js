@@ -1,12 +1,7 @@
-;(function (global, factory) {
-   typeof exports === 'object' && typeof module !== 'undefined'
-       && typeof require === 'function' ? factory(require('../moment')) :
-   typeof define === 'function' && define.amd ? define(['../moment'], factory) :
-   factory(global.moment)
-}(this, (function (moment) { 'use strict';
+// Custom dayJs Locale File
+// Based on https://github.com/iamkun/dayjs/blob/dev/src/locale/vi.js    
 
-
-    var vi = moment.defineLocale('vi', {
+dayjs.locale('vi', {
         months : 'tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12'.split('_'),
         monthsShort : 'Th01_Th02_Th03_Th04_Th05_Th06_Th07_Th08_Th09_Th10_Th11_Th12'.split('_'),
         monthsParseExact : true,
@@ -14,6 +9,7 @@
         weekdaysShort : 'CN_T2_T3_T4_T5_T6_T7'.split('_'),
         weekdaysMin : 'CN_T2_T3_T4_T5_T6_T7'.split('_'),
         weekdaysParseExact : true,
+        ordinal: n => `${n}.`,
         meridiemParse: /sa|ch/i,
         isPM : function (input) {
             return /^ch$/i.test(input);
@@ -61,16 +57,10 @@
             y : 'một năm',
             yy : '%d năm'
         },
-        dayOfMonthOrdinalParse: /\d{1,2}/,
+        OrdinalParse: /\d{1,2}/,
         ordinal : function (number) {
             return number;
         },
-        week : {
-            dow : 1, // Monday is the first day of the week.
-            doy : 4  // The week that contains Jan 4th is the first week of the year.
-        }
+        weekStart: 1,
+        yearStart: 4,
     });
-
-    return vi;
-
-})));
