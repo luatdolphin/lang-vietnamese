@@ -8,6 +8,9 @@ clarkwinkelmann-author-change:
             user: Tác giả
             created_at: Thời gian tạo
             edited_at: Thời gian sửa
+            sync-with-discussion: Đồng bộ hóa với thảo luận
+            sync-with-post: Đồng bộ hóa với bài đầu tiên
+            sync-impossible: Không thể tìm thấy bài đầu tiên. Thử cuộn đến phần đầu của cuộc thảo luận.
             submit: Lưu
             cancel: Hủy
         search:
