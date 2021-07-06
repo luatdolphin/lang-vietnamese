@@ -63,5 +63,5 @@ dayjs.locale({
             return number;
         },
         weekStart: 1,
-        yearStart: 4,
-    });
+        yearStart: 4
+    }, null, false);
