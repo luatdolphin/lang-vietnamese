@@ -34,6 +34,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Cho phép chỉnh sửa thẻ
+      bypass_tag_counts_label: Bỏ qua yêu cầu thẻ
       restrict_by_tag_heading: Hạn chế các thẻ
       tag_discussions_label: Các bài thảo luận trong thẻ
 
