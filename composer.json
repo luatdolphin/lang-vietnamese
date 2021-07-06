@@ -13,7 +13,7 @@
      }
     ],
   "support": {
-    "source": "https://github.com/Littlegolden/flarum-lang-japanese",
+    "source": "https://github.com/luatdolphin/lang-vietnamese",
     "issues": "https://github.com/luatdolphin/lang-vietnamese/issues"
   },
     "require": {
